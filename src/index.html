@@ -27,16 +27,32 @@
 		</p>
 
 		<h2>Navbar</h2>
-		<nav>
-			<a href="#">Home</a>
-			<a href="#">About</a>
-			<a href="#" class="u-pull-right">Login</a>
+		<nav class="u-cf">
+			<div class="toggle u-cf">
+				<label for="navbar-toggle" class="navbar-toggle-button u-pull-right">Menu</label>
+			</div>
+			<input type="checkbox" id="navbar-toggle" class="navbar-toggle-checkbox" autocomplete="off" />
+			<div class="menu">
+				<a href="#">Home</a>
+				<a href="#">About</a>
+				<a href="#">Contact</a>
+				<a href="#">Whatever</a>
+				<a href="#" class="u-pull-right">Login</a>
+			</div>
 		</nav>
 		<pre>
-			<code>&lt;nav&gt;
-	&lt;a href="#"&gt;Home&lt;/a&gt;
-	&lt;a href="#"&gt;About&lt;/a&gt;
-	&lt;a href="#" class="u-pull-right"&gt;Login&lt;/a&gt;
+			<code>&lt;nav class="u-cf"&gt;
+	&lt;div class="toggle u-cf"&gt;
+		&lt;label for="navbar-toggle" class="navbar-toggle-button u-pull-right"&gt;Menu&lt;/label&gt;
+	&lt;/div&gt;
+	&lt;input type="checkbox" id="navbar-toggle" class="navbar-toggle-checkbox" autocomplete="off" /&gt;
+	&lt;div class="menu"&gt;
+		&lt;a href="#"&gt;Home&lt;/a&gt;
+		&lt;a href="#"&gt;About&lt;/a&gt;
+		&lt;a href="#"&gt;Contact&lt;/a&gt;
+		&lt;a href="#"&gt;Whatever&lt;/a&gt;
+		&lt;a href="#" class="u-pull-right"&gt;Login&lt;/a&gt;
+	&lt;/div&gt;
 &lt;/nav&gt;</code>
 		</pre>
 	</div>
