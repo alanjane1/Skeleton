@@ -1,5 +1,5 @@
 # Alan Jane's fork of [Skeleton](http://getskeleton.com)
-In this fork I add stuff on top of <a href="https://github.com/dhg">Dave Gamache's</a> <a href="http://getskeleton.com/">Skeleton</a> css boilerplate.
+In this fork I add whatever stuff I want on top of <a href="https://github.com/dhg">Dave Gamache's</a> <a href="http://getskeleton.com/">Skeleton</a> css boilerplate.
 
 ## Folder structure
 
