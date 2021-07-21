@@ -1,6 +1,8 @@
 The MIT License (MIT)
 
-Copyright (c) 2011-2014 Dave Gamache
+Copyright for portions of project Skeleton are held by Dave Gamache, 2011-2014 as part of project Skeleton. All other copyright for project Skeleton are held by Alan Jane, 2021-now.
+
+Copyright (c) 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
