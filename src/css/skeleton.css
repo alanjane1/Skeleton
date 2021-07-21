@@ -28,7 +28,8 @@
 
 :root {
 	--blue: #33C3F0;
-	--green: #2BDB88;;
+	--green: #2BDB88;
+	;
 	--red: #F03333;
 }
 
@@ -617,7 +618,8 @@ div.alert {
 	margin-bottom: 10px;
 	border-width: 1px;
 	border-style: solid;
-	text-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.3);
+	position: relative;
+	padding-right: 40px;
 }
 
 div.alert.info {
@@ -633,4 +635,30 @@ div.alert.success {
 div.alert.error {
 	border-color: var(--red);
 	background-color: var(--red);
+}
+
+div.alert>label.close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input[type="checkbox"].alert-close-checkbox {
+	display: none;
+}
+
+input[type="checkbox"].alert-close-checkbox:checked + div.alert{
+	display: none;
 }
