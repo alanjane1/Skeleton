@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright for portions of project Skeleton are held by Dave Gamache, 2011-2014 as part of project Skeleton. All other copyright for project Skeleton are held by Alan Jane, 2021-now.
+Copyright for portions of project "Skeleton on Steroids"  are held by Dave Gamache, 2011-2014 as part of project "Skeleton". All other copyright for project "Skeleton on Steroids" are held by Alan Jane, 2021-now.
 
 Copyright (c) 
 
