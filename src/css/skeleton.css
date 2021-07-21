@@ -9,6 +9,8 @@
 
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
+- Root
+- Font face
 - Grid
 - Base Styles
 - Typography
@@ -24,8 +26,11 @@
 - Media Queries
 */
 
-/* Grid
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+	--blue: #33C3F0;
+	--green: #2BDB88;;
+	--red: #F03333;
+}
 
 /* raleway-regular - latin */
 
@@ -42,6 +47,9 @@
 	url('../fonts/raleway-v22-latin-regular.svg#Raleway') format('svg');
 	/* Legacy iOS */
 }
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .container {
 	position: relative;
@@ -597,4 +605,32 @@ input.navbar-toggle-checkbox {
 		float: right;
 		width: auto;
 	}
+}
+
+/* Alerts
+------------------------------------------- */
+
+div.alert {
+	color: white;
+	border-radius: 4px;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	border-width: 1px;
+	border-style: solid;
+	text-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.3);
+}
+
+div.alert.info {
+	border-color: var(--blue);
+	background-color: var(--blue);
+}
+
+div.alert.success {
+	border-color: var(--green);
+	background-color: var(--green);
+}
+
+div.alert.error {
+	border-color: var(--red);
+	background-color: var(--red);
 }
